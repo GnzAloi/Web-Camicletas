@@ -1,0 +1,58 @@
+
+
+*{
+    font-family: 'arial', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body {
+    background-color: #fffffffd;
+}
+
+.navegacion
+{ 
+    background-color: rgb(55, 22, 91);
+    color: #2d0f50;
+    opacity:  40%;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0,2,3,2em;
+    position: relative;
+    align-self: auto;
+}   
+li{
+    position: relative;
+    align-self: auto;
+    display: inline-block;
+    padding: 10px 20px;
+}
+article{
+    border-radius: 10%;
+    border: 5px rgb(126, 68, 126) outset ;
+    background-color: rgb(247, 245, 175);
+    display: inline-block;
+    align-content: center;
+    width:  200px;
+    height: 400px;
+    margin: 20px 40px 40px 50px;
+    padding: 20px 10px;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    color:rgb(168, 226, 242);
+    text-indent: 10px;
+    text-transform:uppercase;
+}
+a:hover{
+    color:rgb(107, 143, 229);
+    background: rgb(135, 82, 192);
+    }
+
+a:visited{
+    color:rgb(189, 160, 160)
+}
+
+a::before{
+    color: aqua;
+}
